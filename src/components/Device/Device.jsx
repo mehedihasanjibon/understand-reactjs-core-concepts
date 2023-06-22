@@ -5,7 +5,7 @@ const Device = (props) => {
     console.log(props);
     return (
         <div>
-            <h2> I have a device : {props.name} </h2>
+            <h3> I have a device : {props.name} </h3>
             <DeviceDetails price={props.price}></DeviceDetails>
         </div>
     );
